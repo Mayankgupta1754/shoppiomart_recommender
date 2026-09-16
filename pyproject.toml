@@ -1,0 +1,25 @@
+[project]
+name = "shioppiomart_recommender"
+version = "0.1.0"
+description = "shioppiomart_recommender using crewAI"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+requires-python = ">=3.10,<3.14"
+dependencies = [
+    "crewai[tools]>=1.15.21,<2.0.0"
+]
+
+[project.scripts]
+shioppiomart_recommender = "shioppiomart_recommender.main:run"
+run_crew = "shioppiomart_recommender.main:run"
+train = "shioppiomart_recommender.main:train"
+replay = "shioppiomart_recommender.main:replay"
+test = "shioppiomart_recommender.main:test"
+run_with_trigger = "shioppiomart_recommender.main:run_with_trigger"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.crewai]
+type = "crew"
+project_id = "9fe8b8af-5df9-4d51-8acf-06172e289397"

@@ -1,0 +1,45 @@
+scout_task:
+  description: >
+    Find trending {category} products in {market} as of {current_date}.
+
+    You MUST call serper_shopping_search once with query "{category}".
+    Do not call any other tool. Do not guess products that are not in the tool result.
+
+    Keep 6 to 8 distinct products that show up in those results.
+    For each product include: name, typical price if the tool gave one, marketplace,
+    why it looks hot today, and the source snippet or link from the tool.
+    Drop anything that is only a category page or a generic "bestsellers" hub.
+  expected_output: >
+    A markdown list of 6-8 products. Each item has: Product name, Price, Marketplace,
+    Why trending today, Source. No invented URLs.
+  agent: trend_scout
+
+listing_task:
+  description: >
+    Using only the scout's product list for {category} on {current_date}, write
+    site-ready listing copy for Shoppiomart.
+
+    For each product provide:
+    - Product name (same as scout)
+    - Short title for the site (max 70 characters)
+    - 2-3 sentence description a customer would read
+    - 4 bullet points (features/benefits, no fake specs)
+    - Suggested price band from the scout
+    - Who it is for
+
+    Do not add products that were not in the scout list.
+  expected_output: >
+    A markdown catalog report titled "Shoppiomart Product Finder — {category} — {current_date}".
+    One section per product with title, description, bullets, price band, and audience.
+    End with a plain "Names" list, one product name per line, for Pushover.
+  agent: listing_writer
+  output_file: report.md
+
+notify_task:
+  description: >
+    Take the Names list from the catalog report for {category}.
+    Call pushover_send_names once with category="{category}" and names as that
+    newline-separated list. Do not skip the tool. Do not send descriptions, only names.
+  expected_output: >
+    One sentence confirming Pushover was called and how many names were sent.
+  agent: pushover_dispatcher
