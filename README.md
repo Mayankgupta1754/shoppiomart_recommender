@@ -12,11 +12,12 @@ The scout can only use products that Serper actually returns. It does not make u
 
 ## How it works
 
-You give a category (default: wireless earbuds). Then each box runs in order, like an n8n workflow. Agent = who thinks. Tool = what it calls.
+On start it asks what you want to buy (or take it from the command line). Then each box runs in order, like an n8n workflow. Agent = who thinks. Tool = what it calls.
 
 ```mermaid
 flowchart TB
-    START([crewai run]) --> IN[Input: category]
+    START([crewai run]) --> ASK[Ask: what to buy?]
+    ASK --> IN[Input: category]
     IN --> CHECK[Ping Serper<br/>POST google.serper.dev/shopping]
     CHECK -->|fail| STOP([Stop. No agents.])
     CHECK -->|ok| KICK[Start sequential crew]
@@ -50,6 +51,20 @@ flowchart TB
 cd shoppiomart_recommender
 uv sync
 crewai run
+```
+
+It prompts for a product/category, for example:
+
+```
+What do you want to buy? (e.g. wireless earbuds, running shoes, air fryer)
+> air fryer
+Searching India Shopping for: air fryer
+```
+
+Or pass it on the command line (skips the prompt):
+
+```
+crewai run "running shoes"
 ```
 
 Python 3.10–3.13. Put this in `.env`:
@@ -90,7 +105,7 @@ PUSHOVER_USER=
 ```
 src/shioppiomart_recommender/
   crew.py                 the 3 agents and 3 tasks
-  main.py                 start the crew; check Serper first
+  main.py                 ask what to buy, check Serper, start the crew
   config/agents.yaml
   config/tasks.yaml
   tools/

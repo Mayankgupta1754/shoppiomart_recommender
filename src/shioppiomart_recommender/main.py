@@ -24,7 +24,7 @@ from shioppiomart_recommender.tools.http import serper_post
 warnings.filterwarnings("ignore", category=SyntaxWarning, module="pysbd")
 
 
-def _inputs(category: str = "wireless earbuds") -> dict[str, str]:
+def _inputs(category: str = "Home appliances") -> dict[str, str]:
     today = datetime.now()
     return {
         "category": category,
@@ -34,8 +34,23 @@ def _inputs(category: str = "wireless earbuds") -> dict[str, str]:
     }
 
 
+def _ask_category() -> str:
+    """Pick the shopping category at runtime (CLI arg or interactive prompt)."""
+    if len(sys.argv) > 1:
+        category = " ".join(sys.argv[1:]).strip()
+        if category:
+            return category
+    print("What do you want to buy? (e.g. wireless earbuds, running shoes, air fryer)")
+    while True:
+        category = input("> ").strip()
+        if category:
+            return category
+        print("Please enter a product or category.")
+
+
 def run():
-    category = " ".join(sys.argv[1:]).strip() if len(sys.argv) > 1 else "wireless earbuds"
+    category = _ask_category()
+    print(f"Searching India Shopping for: {category}")
     try:
         serper_post("shopping", {"q": category, "num": 5, "gl": "in", "hl": "en"})
     except Exception as exc:

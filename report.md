@@ -1,109 +1,125 @@
-# Shoppiomart Product Finder — wireless earbuds — 2026-09-17
+# Shoppiomart Product Finder — stationary — 2026-09-17
 
 ---
 
-### realme Buds T200 Lite Bluetooth in Ear Earbuds  
-**Short Title:** realme Buds T200 Lite - 48H Playback & AI ENC Calls  
-Experience clear calls and impressive battery life with realme Buds T200 Lite. These earbuds include AI-enabled Environmental Noise Cancellation (ENC) for crisp voice during calls, 48 hours of total playback with fast charging, and low-latency gaming mode to keep up with your fast-paced lifestyle.  
-- AI ENC technology for clearer calls  
-- Up to 48 hours total playback with quick recharge  
-- Low latency mode designed for gaming enthusiasts  
-- Comfortable in-ear fit ideal for daily use  
-**Price Band:** ₹479  
-**Best For:** Budget-conscious users who want reliable call quality and versatile use including gaming.
+## QURTASIA 49 in Combo Stationery Kit for Office - Home use
+
+**Short title:** QURTASIA 49-Piece Office & Home Stationery Kit
+
+Elevate your workspace with the QURTASIA 49 in Combo Stationery Kit, designed for both office and home use. This comprehensive collection caters to students and professionals alike, offering all essentials in one convenient package.
+
+- Includes a wide variety of stationery items covering all basic needs  
+- Ideal for students, home offices, and professional environments  
+- Organized kit that reduces the hassle of multiple purchases  
+- Affordable solution to stock up your desk essentials
+
+**Price band:** ₹775  
+**Who it is for:** Students, home users, office professionals
 
 ---
 
-### Philips TAT1269 Bluetooth Truly Wireless in Ear Earbuds with mic  
-**Short Title:** Philips TAT1269 Truly Wireless Earbuds with Mic  
-Philips offers a trusted brand experience with the TAT1269 truly wireless earbuds. These earbuds provide dependable performance and clarity in a compact design, making them a great choice for affordable wireless sound on the go.  
-- Trusted Philips brand quality  
-- Truly wireless convenience with microphone  
-- Compact and lightweight design  
-- Budget-friendly price point  
-**Price Band:** ₹999  
-**Best For:** Users seeking branded, no-frills wireless earbuds for everyday casual listening.
+## Doodle Unicorn A5 Size Notebook
+
+**Short title:** Doodle Unicorn A5 Notebook - Cute & Fun
+
+Add a touch of magic to your notes with the Doodle Unicorn A5 Size Notebook. Its charming unicorn design and compact size make it perfect for students or young buyers who want their stationery to stand out.
+
+- Adorable unicorn theme that appeals especially to young users  
+- Portable A5 size, easy to carry in backpacks and bags  
+- Quality paper for smooth writing experiences  
+- Highly rated for design and usability
+
+**Price band:** ₹199  
+**Who it is for:** Students, young buyers, unicorn theme lovers
 
 ---
 
-### boAt Airdopes ProClip – Open-Ear Earbuds with 52H Playback Velvet Wine  
-**Short Title:** boAt Airdopes ProClip - 52H Open-Ear Bluetooth Earbuds  
-Stand out with the trendy boAt Airdopes ProClip open-ear earbuds built for all-day use. Enjoy up to 52 hours of playback while staying aware of your surroundings thanks to the open-ear design, perfect for active users and outdoor enthusiasts.  
-- Unique open-ear design for situational awareness  
-- Massive 52 hours playback time  
-- Stylish Velvet Wine color finish  
-- Comfortable clip-on fit for active wear  
-**Price Band:** ₹1,799  
-**Best For:** Active users who want long battery life and an open-ear style for safety outdoors.
+## Parshya Purple Stationery Combo Set for Girls
+
+**Short title:** Parshya Purple Combo Set – Cute Pencil Case & Accessories
+
+This Parshya Purple Stationery Combo is a perfect back-to-school gift with its stylish kawaii pencil case, eraser, and refill pens. It’s a lovely, compact set tailored especially for girls who want both functionality and fun.
+
+- Comes with a trendy purple pencil case, eraser, and multiple refills  
+- Compact and easy to organize in school bags  
+- Ideal gift option for school-going girls  
+- Popular among buyers for its cute design and utility
+
+**Price band:** ₹379  
+**Who it is for:** School girls, gift shoppers, stationery enthusiasts
 
 ---
 
-### OnePlus Nord 3r Buds  
-**Short Title:** OnePlus Nord 3r Buds - Popular Wireless Earbuds  
-OnePlus Nord 3r Buds deliver crisp sound quality backed by a popular global brand. With a solid 4.5-star rating from hundreds of users, these earbuds combine style, comfort, and dependable wireless performance.  
-- Well-reviewed by users for sound and comfort  
-- Reliable Bluetooth connection  
-- Sleek and modern design  
-- Easy pairing with OnePlus and other devices  
-**Price Band:** ₹1,999  
-**Best For:** Brand-conscious users seeking a stylish, well-rounded wireless earbuds experience.
+## Faber-Castell Home-Office Kit
+
+**Short title:** Faber-Castell Trusted Home & Office Stationery Kit
+
+Experience reliability with the Faber-Castell Home-Office Kit, a compact and trustworthy set perfect for everyday use. With a reputation for quality and a near-perfect rating, this kit has all you need for productive days.
+
+- Trusted brand known for durability and quality  
+- Compact kit designed for quick access and everyday tasks  
+- Suits both home users and office professionals  
+- Highly rated and well-reviewed by users
+
+**Price band:** ₹104  
+**Who it is for:** Home users, office workers, quality-focused buyers
 
 ---
 
-### Noise Buds Trance Truly Wireless Earbuds  
-**Short Title:** Noise Buds Trance - Affordable Truly Wireless Earbuds  
-Get true wireless convenience with Noise Buds Trance, offering solid performance at an affordable price. Popular for their ease of use and reliable wireless connectivity, these earbuds suit users looking for value without compromise.  
-- True wireless Bluetooth earbuds with mic  
-- Attractive price with decent ratings  
-- Good fit for casual everyday use  
-- Compatible with all Bluetooth-enabled devices  
-**Price Band:** ₹999  
-**Best For:** Budget buyers wanting trustworthy no-fuss earbuds for daily listening.
+## Kangaro Stationery Office Set
+
+**Short title:** Kangaro Office Stationery Set – Reliable Essentials
+
+The Kangaro Stationery Office Set is a perfect solution for your workplace stationery needs, backed by a perfect 5-star rating. It combines all necessary office tools for smooth daily operations.
+
+- Comprehensive set tailored for office supply needs  
+- Sturdy and reliable items ensuring long-term use  
+- Highly recommended and top-rated among users  
+- Streamlines your desk setup efficiently
+
+**Price band:** ₹289  
+**Who it is for:** Office workers, administrative staff, business professionals
 
 ---
 
-### CMF by Nothing Buds 2a TWS ANC Earbuds  
-**Short Title:** Nothing Buds 2a – ANC Wireless Earbuds with Top Reviews  
-Experience premium active noise cancellation with Nothing Buds 2a. These earbuds wow users with clear sound, effective ANC, and a comfortable fit — earning a strong 4.5-star rating from a thousand reviews.  
-- Active Noise Cancellation for immersive listening  
-- Comfortable ergonomic design  
-- Clear and balanced audio  
-- Highly rated by verified users  
-**Price Band:** ₹1,899  
-**Best For:** Audiophiles and commuters seeking ANC earbuds with excellent user feedback.
+## OFIFO Stationery Items Handbook Tool Box - Cute Stationery 8 Multipurpose Combo Pack
+
+**Short title:** OFIFO Cute 8-Piece Multipurpose Stationery Combo Pack
+
+Get practical and trendy with the OFIFO Stationery Items Handbook Tool Box. This multipurpose kit features a stapler, hole puncher, scissors, and more, making it a smart pick for anyone wanting a compact all-in-one solution.
+
+- Multipurpose set including stapler, hole puncher, scissors, and other essentials  
+- Compact and easy to store, perfect for on-the-go or desk use  
+- Combines functionality with appealing design  
+- Suitable for students and young professionals alike
+
+**Price band:** ₹456  
+**Who it is for:** Students, young professionals, practical stationery users
 
 ---
 
-### boAt Airdopes Alpha  
-**Short Title:** boAt Airdopes Alpha - Mid-Range Wireless Earbuds  
-boAt's Airdopes Alpha offer dependable wireless audio with a sleek, compact design. With a good 4.4-star rating, these are a solid choice for anyone wanting dependable sound on a budget.  
-- Popular mid-budget earbuds with reliable sound  
-- Lightweight and portable  
-- Decent call and music experience  
-- Trusted by many Indian users  
-**Price Band:** ₹899  
-**Best For:** Mid-range buyers wanting trusted brand quality without a high price.
+## Midori XS Stationery Kit
+
+**Short title:** Midori XS Luxury Stationery Kit – Premium Gift Choice
+
+Indulge in the elegance of the Midori XS Stationery Kit, a premium luxury collection suited for gifting or high-end personal use. With a 5-star reputation, this set is perfect for those who appreciate refined craftsmanship in their stationery.
+
+- Premium quality materials and refined design  
+- Ideal for gifting or luxury personal collections  
+- Highly rated for quality and aesthetic appeal  
+- Exclusive and elegant kit for discerning users
+
+**Price band:** ₹4,840  
+**Who it is for:** Luxury buyers, gift shoppers, stationery connoisseurs
 
 ---
 
-### Samsung Galaxy Buds Core with Galaxy AI  
-**Short Title:** Samsung Galaxy Buds Core - Premium AI-Powered Earbuds  
-Samsung’s Galaxy Buds Core combine premium build and AI features for intelligent sound adjustments. With 4.7 stars from thousands of reviews, these earbuds are trusted by millions for quality, comfort, and smart technology.  
-- Galaxy AI for smart sound optimization  
-- Premium audio and build quality  
-- Trusted brand with excellent reviews  
-- Comfortable for long listening sessions  
-**Price Band:** ₹4,199  
-**Best For:** Premium buyers who want cutting-edge technology and brand assurance.
+# Names
 
----
-
-# Names  
-realme Buds T200 Lite Bluetooth in Ear Earbuds  
-Philips TAT1269 Bluetooth Truly Wireless in Ear Earbuds with mic  
-boAt Airdopes ProClip – Open-Ear Earbuds with 52H Playback Velvet Wine  
-OnePlus Nord 3r Buds  
-Noise Buds Trance Truly Wireless Earbuds  
-CMF by Nothing Buds 2a TWS ANC Earbuds  
-boAt Airdopes Alpha  
-Samsung Galaxy Buds Core with Galaxy AI
+QURTASIA 49 in Combo Stationery Kit for Office - Home use  
+Doodle Unicorn A5 Size Notebook  
+Parshya Purple Stationery Combo Set for Girls  
+Faber-Castell Home-Office Kit  
+Kangaro Stationery Office Set  
+OFIFO Stationery Items Handbook Tool Box - Cute Stationery 8 Multipurpose Combo Pack  
+Midori XS Stationery Kit
