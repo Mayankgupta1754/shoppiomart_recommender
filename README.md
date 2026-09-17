@@ -12,16 +12,28 @@ The scout can only use products that Serper actually returns. It does not make u
 
 ## How it works
 
-You give a category (default: wireless earbuds). Then:
+You give a category (default: wireless earbuds). Then each box runs in order, like an n8n workflow. Agent = who thinks. Tool = what it calls.
 
 ```mermaid
-flowchart TD
-    A[You pick a category] --> B{Can we reach Serper?}
-    B -->|No| X[Stop. Do not start agents]
-    B -->|Yes| C[Scout searches India shopping]
-    C --> D[Keep 6 to 8 real products]
-    D --> E[Writer writes report.md]
-    E --> F[Notifier sends names to your phone]
+flowchart TB
+    START([crewai run]) --> IN[Input: category]
+    IN --> CHECK[Ping Serper<br/>POST google.serper.dev/shopping]
+    CHECK -->|fail| STOP([Stop. No agents.])
+    CHECK -->|ok| KICK[Start sequential crew]
+
+    KICK --> SCOUT[Agent: trend_scout]
+    SCOUT --> T1{{Tool: serper_shopping_search}}
+    T1 --> API1[Serper → Google Shopping India]
+    API1 --> PICK[Keep 6–8 products<br/>drop category pages]
+    PICK --> LIST[Product list<br/>name · price · site]
+
+    LIST --> WRITER[Agent: listing_writer<br/>no tool]
+    WRITER --> MD[Write report.md<br/>copy + Names block]
+
+    MD --> DISP[Agent: pushover_dispatcher]
+    DISP --> T2{{Tool: pushover_send_names}}
+    T2 --> API2[Pushover API]
+    API2 --> PHONE([Phone: names only])
 ```
 
 | Who | Job | Tool |
@@ -53,13 +65,13 @@ PUSHOVER_USER=
 
 ---
 
-## Proof it ran
+## Example run
 
 **Traces** — one timeline: scout searched → writer wrote → names were sent.
 
 ![CrewAI traces](assets/traces.png)
 
-**Phone** — title is `Shoppiomart · {category}`. Body is a numbered list of names only.
+**Phone** — title is `Shoppiomart`. Body is a numbered list of names only.
 
 ![Pushover notification](assets/notification.png)
 
