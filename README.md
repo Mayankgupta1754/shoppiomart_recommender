@@ -1,98 +1,88 @@
 # Shoppiomart Product Finder
 
-Multi-agent CrewAI pipeline that researches live India shopping data, writes catalog copy, and dispatches the product list to Pushover. Tracing is enabled for the full run.
+A CrewAI project with **3 agents** that work one after another:
 
-Grounding is tool-first: the scout only keeps products returned by Serper Shopping (`gl=in`). The writer never invents SKUs. If Serper is unreachable, kickoff aborts before any agent starts.
+1. **Scout** searches Google Shopping (India) and picks real products.
+2. **Writer** turns those products into listing copy in `report.md`.
+3. **Notifier** sends only the product **names** to your phone with Pushover.
+
+The scout can only use products that Serper actually returns. It does not make up product names. If Serper is down, the run stops before any agent starts.
 
 ---
 
-## Architecture
+## How it works
 
-Sequential crew, three specialists, custom tools with typed schemas.
-
-| Agent | Task | Tools | Output |
-|---|---|---|---|
-| India marketplace trend scout | `scout_task` | `serper_shopping_search` | 6–8 grounded products |
-| Catalog copywriter | `listing_task` | — | `report.md` (copy + Names list) |
-| Pushover dispatcher | `notify_task` | `pushover_send_names` | mobile push |
+You give a category (default: wireless earbuds). Then:
 
 ```mermaid
 flowchart TD
-    A[Category input<br/>default: wireless earbuds] --> B{Serper preflight<br/>POST google.serper.dev}
-    B -->|timeout / 4xx / 429| X[Abort kickoff]
-    B -->|ok| C[trend_scout]
-    C --> D[serper_shopping_search<br/>num=20 · gl=in · hl=en]
-    D --> E{Filter}
-    E -->|category page / missing name| E2[Drop]
-    E -->|valid listing| F[6–8 products<br/>name · price · marketplace · source]
-    F --> G[listing_writer]
-    G --> H[report.md]
-    H --> I[pushover_dispatcher]
-    I --> J[pushover_send_names<br/>names only, ≤12]
-    J --> K[Pushover API → device]
-    C -.-> T[CrewAI traces]
-    G -.-> T
-    I -.-> T
+    A[You pick a category] --> B{Can we reach Serper?}
+    B -->|No| X[Stop. Do not start agents]
+    B -->|Yes| C[Scout searches India shopping]
+    C --> D[Keep 6 to 8 real products]
+    D --> E[Writer writes report.md]
+    E --> F[Notifier sends names to your phone]
 ```
+
+| Who | Job | Tool |
+|---|---|---|
+| Scout | Find 6–8 products (name, price, site) | Serper Shopping |
+| Writer | Write titles, descriptions, bullets | none |
+| Notifier | Push the names list | Pushover |
 
 ---
 
-## Run
+## How to run
 
 ```
 cd shoppiomart_recommender
 uv sync
-uv run shioppiomart_recommender "wireless earbuds"
+crewai run
 ```
 
-Requires Python 3.10–3.13.
+Python 3.10–3.13. Put this in `.env`:
 
 ```
+OPENAI_API_KEY=
 SERPER_API_KEY=
 PUSHOVER_TOKEN=
 PUSHOVER_USER=
 ```
 
-Aliases `Serper_API_KEY`, `PUSHOVER_APP_TOKEN`, `PUSHOVER_USER_KEY` are mapped in `main.py`. CrewAI telemetry is disabled; `CREWAI_TRACING_ENABLED` is on.
+`Serper_API_KEY`, `PUSHOVER_APP_TOKEN`, and `PUSHOVER_USER_KEY` also work.
 
 ---
 
-## Trace
+## Proof it ran
 
-Live run of `ShioppiomartRecommender` — scout (`serper_shopping_search`) → writer (`listing_task`) → dispatcher (`pushover_send_names`). Crew output: eight product names pushed for wireless earbuds.
+**Traces** — one timeline: scout searched → writer wrote → names were sent.
 
 ![CrewAI traces](assets/traces.png)
 
----
-
-## Dispatch
-
-Pushover payload on device. Title is `Shoppiomart · {category}`; body is a numbered names list only.
+**Phone** — title is `Shoppiomart · {category}`. Body is a numbered list of names only.
 
 ![Pushover notification](assets/notification.png)
 
 ---
 
-## Artifacts
+## What you get
 
-- `report.md` — listing copy (title, description, bullets, price band, audience) plus a trailing Names block
-- CrewAI timeline for the run
-- Pushover message (truncated to 1024 chars)
+- `report.md` — listing copy plus a Names list at the end
+- CrewAI traces of the run
+- A Pushover message on your device
 
 ---
 
-## Stack
+## Project files
 
 ```
 src/shioppiomart_recommender/
-  crew.py                 CrewBase · sequential process · tracing
-  main.py                 kickoff, train, replay, test, Serper preflight
+  crew.py                 the 3 agents and 3 tasks
+  main.py                 start the crew; check Serper first
   config/agents.yaml
   config/tasks.yaml
   tools/
-    serper_tools.py       Google Shopping / web search via Serper
-    pushover_tool.py      names-only push
-    http.py               curl transport, timeouts, HTTP error mapping
+    serper_tools.py       Google Shopping search
+    pushover_tool.py      send names to the phone
+    http.py               HTTP calls with a timeout (so a dead API does not hang)
 ```
-
-`http.py` talks to Serper and Pushover over curl (`connect-timeout 8`, `max-time 20`) instead of hanging the crew on a dead socket. Rate limits surface as `429` and stop the run.
