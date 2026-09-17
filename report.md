@@ -2,95 +2,108 @@
 
 ---
 
-## realme Buds T200 Lite Bluetooth in Ear Earbuds  
-**Short title:** realme Buds T200 Lite - 48H Playback & AI ENC Calls  
-Experience long-lasting music with realme Buds T200 Lite, offering an impressive 48 hours total playback and AI-powered ENC for clearer call quality. Designed for gamers, these earbuds boast low latency to keep every beat and sound in sync with your gameplay.  
-- Up to 48 hours total playback with fast charging support  
-- AI Environmental Noise Cancellation (ENC) for crystal-clear calls  
-- Low latency mode ideal for gaming and video streaming  
-- Comfortable in-ear design for extended wear  
-**Price band:** ₹450 - ₹500  
-**Who it is for:** Active users seeking extended battery life, clear calls, and low-latency gaming earbuds on a budget.
+### realme Buds T200 Lite Bluetooth in Ear Earbuds  
+**Short Title:** realme Buds T200 Lite - 48H Playback & AI ENC Calls  
+Experience clear calls and impressive battery life with realme Buds T200 Lite. These earbuds include AI-enabled Environmental Noise Cancellation (ENC) for crisp voice during calls, 48 hours of total playback with fast charging, and low-latency gaming mode to keep up with your fast-paced lifestyle.  
+- AI ENC technology for clearer calls  
+- Up to 48 hours total playback with quick recharge  
+- Low latency mode designed for gaming enthusiasts  
+- Comfortable in-ear fit ideal for daily use  
+**Price Band:** ₹479  
+**Best For:** Budget-conscious users who want reliable call quality and versatile use including gaming.
 
 ---
 
-## M19 Bluetooth Earpods With Light TWS Wireless LED Bluetooth Earphones  
-**Short title:** M19 TWS Earbuds with LED Display & Noise Cancelling  
-Budget-friendly and attractive, M19 earbuds feature a digital LED display with touch controls alongside noise-cancelling capabilities. Perfect for everyday listening with a stylish LED-lit design and 9D stereo sound.  
-- Digital LED display for battery and connectivity status  
-- Touch control for easy use without reaching for your phone  
-- Noise-cancelling technology enhances listening clarity  
-- Affordable price with solid user satisfaction  
-**Price band:** ₹250 - ₹300  
-**Who it is for:** Cost-conscious buyers wanting trendy wireless earbuds with noise cancellation and an LED digital display.
+### Philips TAT1269 Bluetooth Truly Wireless in Ear Earbuds with mic  
+**Short Title:** Philips TAT1269 Truly Wireless Earbuds with Mic  
+Philips offers a trusted brand experience with the TAT1269 truly wireless earbuds. These earbuds provide dependable performance and clarity in a compact design, making them a great choice for affordable wireless sound on the go.  
+- Trusted Philips brand quality  
+- Truly wireless convenience with microphone  
+- Compact and lightweight design  
+- Budget-friendly price point  
+**Price Band:** ₹999  
+**Best For:** Users seeking branded, no-frills wireless earbuds for everyday casual listening.
 
 ---
 
-## boAt Airdopes 141 True Wireless Earbuds  
-**Short title:** boAt Airdopes 141 - True Wireless Stereo Earbuds  
-Known for its reliable audio quality, boAt Airdopes 141 delivers clear sound in a compact, true wireless design. These earbuds are great for casual music lovers who want dependable performance every day.  
-- Trusted brand with focused sound quality  
-- True wireless for freedom without cables  
-- Secure fit for comfortable use during daily routines  
-- Durable design for everyday wear and tear  
-**Price band:** ₹900 - ₹1,000  
-**Who it is for:** Brand-conscious customers seeking true wireless earbuds with dependable sound quality at a mid-range price.
+### boAt Airdopes ProClip – Open-Ear Earbuds with 52H Playback Velvet Wine  
+**Short Title:** boAt Airdopes ProClip - 52H Open-Ear Bluetooth Earbuds  
+Stand out with the trendy boAt Airdopes ProClip open-ear earbuds built for all-day use. Enjoy up to 52 hours of playback while staying aware of your surroundings thanks to the open-ear design, perfect for active users and outdoor enthusiasts.  
+- Unique open-ear design for situational awareness  
+- Massive 52 hours playback time  
+- Stylish Velvet Wine color finish  
+- Comfortable clip-on fit for active wear  
+**Price Band:** ₹1,799  
+**Best For:** Active users who want long battery life and an open-ear style for safety outdoors.
 
 ---
 
-## M19 TWS BT5.1 Wireless Earphones 3D Touch Control LED Digital Display  
-**Short title:** M19 TWS Bluetooth 5.1 with Waterproof & Noise Reduction  
-M19 TWS BT5.1 earbuds combine a waterproof IPX7 rating with noise reduction technology and 3D touch controls for a versatile listening experience. The included digital LED display keeps you informed about battery life and status.  
-- Waterproof IPX7 rating suitable for workouts and rain  
-- CVC 8.0 noise reduction for clearer calls and music  
-- 3D touch controls for effortless music and call management  
-- LED digital display shows battery and connection status  
-**Price band:** ₹300 - ₹350  
-**Who it is for:** Active users needing waterproof, noise-reducing wireless earbuds with modern touch controls under ₹350.
+### OnePlus Nord 3r Buds  
+**Short Title:** OnePlus Nord 3r Buds - Popular Wireless Earbuds  
+OnePlus Nord 3r Buds deliver crisp sound quality backed by a popular global brand. With a solid 4.5-star rating from hundreds of users, these earbuds combine style, comfort, and dependable wireless performance.  
+- Well-reviewed by users for sound and comfort  
+- Reliable Bluetooth connection  
+- Sleek and modern design  
+- Easy pairing with OnePlus and other devices  
+**Price Band:** ₹1,999  
+**Best For:** Brand-conscious users seeking a stylish, well-rounded wireless earbuds experience.
 
 ---
 
-## Boat Airdopes 161 TWS Earbuds with Asap Charge  
-**Short title:** boAt Airdopes 161 - Fast Charge Wireless Earbuds  
-Enjoy quick power-ups with boAt Airdopes 161 featuring ASAP charge technology. These earbuds combine fast charging and a long-lasting battery with a sleek design, perfect for users with busy, on-the-go lifestyles.  
-- ASAP Charge for rapid charging and minimal downtime  
-- Lightweight ergonomic design for comfortable use  
-- Clear stereo sound for immersive music and calls  
-- BoAt’s trusted quality and high user satisfaction  
-**Price band:** ₹850 - ₹900  
-**Who it is for:** Busy professionals and students who value fast charging and comfort alongside quality sound.
+### Noise Buds Trance Truly Wireless Earbuds  
+**Short Title:** Noise Buds Trance - Affordable Truly Wireless Earbuds  
+Get true wireless convenience with Noise Buds Trance, offering solid performance at an affordable price. Popular for their ease of use and reliable wireless connectivity, these earbuds suit users looking for value without compromise.  
+- True wireless Bluetooth earbuds with mic  
+- Attractive price with decent ratings  
+- Good fit for casual everyday use  
+- Compatible with all Bluetooth-enabled devices  
+**Price Band:** ₹999  
+**Best For:** Budget buyers wanting trustworthy no-fuss earbuds for daily listening.
 
 ---
 
-## Buds T310 – Black Next-Gen Wireless Earbuds  
-**Short title:** Buds T310 - ANC & Surround Audio at an Affordable Price  
-Get advanced audio features like 46dB Active Noise Cancellation and surround sound with Buds T310. These next-gen wireless earbuds offer premium sound technology at a surprisingly low price.  
-- 46dB Active Noise Cancellation blocks ambient noise effectively  
-- Surround audio creates an immersive listening environment  
-- Fast charge support to keep you listening longer  
-- Stylish black design suitable for all occasions  
-**Price band:** ₹200 - ₹220  
-**Who it is for:** Audiophiles and casual listeners looking for premium noise cancellation and surround sound at a budget price.
+### CMF by Nothing Buds 2a TWS ANC Earbuds  
+**Short Title:** Nothing Buds 2a – ANC Wireless Earbuds with Top Reviews  
+Experience premium active noise cancellation with Nothing Buds 2a. These earbuds wow users with clear sound, effective ANC, and a comfortable fit — earning a strong 4.5-star rating from a thousand reviews.  
+- Active Noise Cancellation for immersive listening  
+- Comfortable ergonomic design  
+- Clear and balanced audio  
+- Highly rated by verified users  
+**Price Band:** ₹1,899  
+**Best For:** Audiophiles and commuters seeking ANC earbuds with excellent user feedback.
 
 ---
 
-## GOBOULT Z40 Pro V2.0 TWS Earbuds  
-**Short title:** GOBOULT Z40 Pro V2.0 - Premium Next-Gen Wireless Earbuds  
-The latest GOBOULT Z40 Pro V2.0 offers an upgraded wireless earbud experience with top-rated build and sound quality. This model is favored for its premium features and excellent user feedback.  
-- Latest generation with upgraded sound performance  
-- Strong user rating for trusted quality and reliability  
-- Stylish design built for all-day comfort  
-- Designed for clear calls and rich audio playback  
-**Price band:** ₹1,400 - ₹1,500  
-**Who it is for:** Tech-savvy buyers seeking premium features and reliable performance in wireless earbuds.
+### boAt Airdopes Alpha  
+**Short Title:** boAt Airdopes Alpha - Mid-Range Wireless Earbuds  
+boAt's Airdopes Alpha offer dependable wireless audio with a sleek, compact design. With a good 4.4-star rating, these are a solid choice for anyone wanting dependable sound on a budget.  
+- Popular mid-budget earbuds with reliable sound  
+- Lightweight and portable  
+- Decent call and music experience  
+- Trusted by many Indian users  
+**Price Band:** ₹899  
+**Best For:** Mid-range buyers wanting trusted brand quality without a high price.
+
+---
+
+### Samsung Galaxy Buds Core with Galaxy AI  
+**Short Title:** Samsung Galaxy Buds Core - Premium AI-Powered Earbuds  
+Samsung’s Galaxy Buds Core combine premium build and AI features for intelligent sound adjustments. With 4.7 stars from thousands of reviews, these earbuds are trusted by millions for quality, comfort, and smart technology.  
+- Galaxy AI for smart sound optimization  
+- Premium audio and build quality  
+- Trusted brand with excellent reviews  
+- Comfortable for long listening sessions  
+**Price Band:** ₹4,199  
+**Best For:** Premium buyers who want cutting-edge technology and brand assurance.
 
 ---
 
 # Names  
 realme Buds T200 Lite Bluetooth in Ear Earbuds  
-M19 Bluetooth Earpods With Light TWS Wireless LED Bluetooth Earphones  
-boAt Airdopes 141 True Wireless Earbuds  
-M19 TWS BT5.1 Wireless Earphones 3D Touch Control LED Digital Display  
-Boat Airdopes 161 TWS Earbuds with Asap Charge  
-Buds T310 – Black Next-Gen Wireless Earbuds  
-GOBOULT Z40 Pro V2.0 TWS Earbuds
+Philips TAT1269 Bluetooth Truly Wireless in Ear Earbuds with mic  
+boAt Airdopes ProClip – Open-Ear Earbuds with 52H Playback Velvet Wine  
+OnePlus Nord 3r Buds  
+Noise Buds Trance Truly Wireless Earbuds  
+CMF by Nothing Buds 2a TWS ANC Earbuds  
+boAt Airdopes Alpha  
+Samsung Galaxy Buds Core with Galaxy AI
